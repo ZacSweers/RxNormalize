@@ -1,0 +1,16 @@
+ext {
+  minSdkVersion = 14
+  targetSdkVersion = 23
+  compileSdkVersion = 23
+  buildToolsVersion = '23.0.3'
+
+  ci = 'true'.equals(System.getenv('CI'))
+
+  def kotlinVersion = '1.0.0'
+  kotlinPlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+  kotlinStdlib = "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+
+  rxJava = 'io.reactivex:rxjava:1.1.5'
+  junit = 'junit:junit:4.12'
+  truth = 'com.google.truth:truth:0.28'
+}

@@ -1,0 +1,3 @@
+rootProject.name = 'rxnormalize-root'
+include ':rxnormalize'
+//include ':rxnormalize-kotlin'
