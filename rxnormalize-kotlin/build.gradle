@@ -1,0 +1,17 @@
+buildscript {
+    dependencies {
+        classpath rootProject.ext.kotlinPlugin
+    }
+}
+
+apply plugin: 'kotlin'
+
+dependencies {
+    compile project(':rxnormalize')
+    compile rootProject.ext.kotlinStdlib
+
+    testCompile rootProject.ext.junit
+    testCompile rootProject.ext.truth
+}
+
+apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
