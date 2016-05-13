@@ -37,12 +37,12 @@ Download
 
 Java:
 ```gradle
-compile 'io.sweers.rxnormalize:rxnormalize:0.3.0'
+compile 'io.sweers.rxnormalize:rxnormalize:0.1.0'
 ```
 
 Kotlin:
 ```gradle
-compile 'io.sweers.rxnormalize:rxnormalize-kotlin:0.3.0'
+compile 'io.sweers.rxnormalize:rxnormalize-kotlin:0.1.0'
 ```
 
 Snapshots of the development version are available in [Sonatype's snapshots repository][snapshots].
