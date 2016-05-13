@@ -17,15 +17,9 @@ Usage
 
 Java:
 ```java
-myObservable
+myBananaObservable
   ...
-  .lift(new OperatorNormalize(1, TimeUnit.SECONDS)
-  ...
-
-// Convenience Transformer provided
-myObservable
-  ...
-  .compose(RxNormalizer.transform(1, TimeUnit.SECONDS)
+  .lift(new OperatorNormalize<Banana>(1, TimeUnit.SECONDS)
   ...
 ```
 
