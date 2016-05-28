@@ -10,7 +10,7 @@ longer before than the specified window, it will emit immediately.
 This is similar to `debounce` and various throttle operators, except that this will not drop or skip
 any emissions. All emissions are queued if necessary.
 
-// TODO marble
+![marble diagram](marbles.png)
 
 Usage
 -----
