@@ -1,6 +1,14 @@
 RxNormalize
 ===========
 
+## NOTE
+
+This is not maintained. I worked on this a long time ago and decided to open source it for posterity.
+
+This approach works, but my gut feeling is that this is something that should be done via backpressure. I might try this again in the future as such.
+
+---------
+
 A normalizing operator for RxJava Observables.
 
 An operator that normalizes the flow of data through an {@link Observable} stream in such a way
@@ -30,19 +38,6 @@ myObservable
   ...
   .normalize(1, TimeUnit.SECONDS)
   ...
-```
-
-Download
---------
-
-Java:
-```gradle
-compile 'io.sweers.rxnormalize:rxnormalize:0.1.0'
-```
-
-Kotlin:
-```gradle
-compile 'io.sweers.rxnormalize:rxnormalize-kotlin:0.1.0'
 ```
 
 Snapshots of the development version are available in [Sonatype's snapshots repository][snapshots].
